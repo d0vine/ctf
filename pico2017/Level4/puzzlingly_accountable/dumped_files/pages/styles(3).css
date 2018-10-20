@@ -1,0 +1,129 @@
+ove. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+ul.nav {
+	list-style: none; /* this removes the list marker */
+	border-top: 1px solid #666; /* this creates the top border for the links - all others are placed using a bottom border on the LI */
+	margin-bottom: 15px; /* this creates the space between the navigation on the content below */
+}
+ul.nav li {
+	border-bottom: 1px solid #666; /* this creates the button separation */
+}
+ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
+	padding: 5px 5px 5px 15px;
+	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */2b2b2b
+	width: 160px;  /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
+	text-decoration: none;
+	background-color: #2b2b2b;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	background-color: #4E4E4E;
+	color: #85bf25;
+}
+
+ul.navDisabled a{
+	background-color:#A2AF9A;
+	color: #FFF;
+	padding: 5px 5px 5px 15px;
+	display: block;
+	width:160px;
+	text-decoration:none;
+}
+
+ul.navDisabled li {
+	border-bottom: 1px solid #666; /* this creates the button separation */
+}
+
+/* ~~ The footer ~~ */
+.footer {
+	padding: 10px 0;
+	background-color: #2b2b2b;
+	position: relative;/* this gives IE6 hasLayout to properly clear */
+	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+	color:#ccc;
+	font-size:12px;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+.contentstuff{W
+	padding-right: 15px;
+	padding-left: 15px;	
+}
+
+#sidebarbox{
+	height: 1350px;
+}
+
+#sidebarbox2{
+	height: 450px;
+}
+
+.selection {
+	margin: 0;
+	font-size: 22px;
+	padding: 0;
+	border-bottom: 3px solid #85bf25;
+	background-color: transparent;
+	padding-right: 5px;
+	border-top: 0;
+	color: #fff;
+	
+	max-width: 185px;
+	overflow: hidden;
+	
+	background-color: transparent;
+	padding: 0 4px 1px 3px;
+	text-align: left;
+	
+	/*display: inline-block;*/
+}
+
+.selection:hover {
+	color: #85bf25;
+	background: transparent;
+}
+
+.bodytable{
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.cell{
+	/*padding: 5px;	*/
+
+	/*background-color: #181817;*/
+	border: 2px solid #444442;
+	/*display: inline-block;
+	margin: 4px 2px;
+	position: relative;*/
+}
+
+.cell:hover{
+  border-color: #c29f37;
+}
+
+.nounderspace{
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+
+.nooverspace{
+	margin-top:0px;
+	padding-top:0px;	
+}

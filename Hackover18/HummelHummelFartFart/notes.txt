@@ -1,0 +1,29 @@
+Morse code?
+  every second a frame changes
+
+https://stackoverflow.com/questions/33311153/python-extracting-and-saving-video-frames
+
+(venv_ctf) ( ⌁ ) D ) C ) H ) HummelHummelFartFart ) python get_average.py frames/\\frame0.jpg                                                                       ~12,0s  22:56:52
+3.4.3
+get_average.py:14: RuntimeWarning: overflow encountered in ubyte_scalars
+  avg += float(pixel[0]+pixel[1]+pixel[2])/3.0
+avg: 6820268.66666
+(venv_ctf) ( ⌁ ) D ) C ) H ) HummelHummelFartFart ) nvim get_average.py                                                                                                     22:56:54
+(venv_ctf) ( ⌁ ) D ) C ) H ) HummelHummelFartFart ) python get_average.py frames/\\frame0.jpg                                                                       ~26,0s  22:57:23
+3.4.3
+get_average.py:14: RuntimeWarning: overflow encountered in ubyte_scalars
+  avg += float(pixel[0]+pixel[1]+pixel[2])/3.0
+avg: 54.4245640354
+(venv_ctf) ( ⌁ ) D ) C ) H ) HummelHummelFartFart ) python get_average.py frames/\\frame1.jpg                                                                               22:57:26
+3.4.3
+get_average.py:14: RuntimeWarning: overflow encountered in ubyte_scalars
+  avg += float(pixel[0]+pixel[1]+pixel[2])/3.0
+avg: 56.5450594231
+(venv_ctf) ( ⌁ ) D ) C ) H ) HummelHummelFartFart ) python get_average.py frames/\\frame2.jpg                                                                               22:57:29
+3.4.3
+get_average.py:14: RuntimeWarning: overflow encountered in ubyte_scalars
+  avg += float(pixel[0]+pixel[1]+pixel[2])/3.0
+avg: 54.4254497962
+
+< 55 -> .
+> 55 -> -

@@ -1,0 +1,4 @@
+test.png.zip -> ZIP file, fix header (XXXXXX)
+cookies.sqlite -> 
+wiggle -> locations plotted (http://www.hamstermap.com/quickmap.php)
+Enigma
